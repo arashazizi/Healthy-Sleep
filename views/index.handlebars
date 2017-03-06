@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet"></link>
+  <link href="css/bootstrap-theme.css" rel="stylesheet"></link>
+  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet"></link>
+  <link rel="stylesheet" href="css/bootstrap-tagsinput.css"></link>
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"></link>
+  <link href="css/popUpStyle.css" rel="stylesheet"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <title>Healthy-Sleep</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="/profile">
+            <img class="profile-picture" src="{{profile.profilePicture}}"></img>
+            {{profile.name}}
+          </a>
+        </li>
+        <hr></hr>
+        <li class="sidebar-nav-active">
+            <a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li>
+            <a href="/events"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Page1</a>
+        </li>
+        <li>
+            <a href="/culture"><i class="fa fa-compass" aria-hidden="true"></i> Page2</a>
+        </li>
+        <li>
+            <a href="/help"><i class="fa fa-question-circle" aria-hidden="true"></i> Page3</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="banner">
+      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+
+      <div class="jumbotron text-center">
+        <h1>Healthy-Sleep</h1>
+		<!-- Button to open the modal -->
+		<button onclick="document.getElementById('eventPopUp').style.display='block'" type="button" class="btn btn-default" id="createEventButton">
+          <i class="fa fa-plus-square" aria-hidden="true"></i> Create Event
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      
+        
+          <h3>Bluh bluh</h3>
+		  
+
+      <br/>
+	  
+	  <div class="imgcontainer">
+	    <img src="http://bestanimations.com/Nature/Fire/campfire-animated-gif-7.gif" border="0" alt="animated-fire-image-0292"/><br/>
+	  	  
+	    <!-- Music Credit: http://www.instamp3.co/download/sleep-music.html -->
+	    <audio controls autoplay>		
+		  <source src="songs/AMinorThing.mp3" >
+		  Your browser does not support the audio element.
+		</audio>
+		  <p><strong>Note:</strong> The audio tag is not supported in Internet Explorer 8 and earlier versions.</p>
+	  </div>	  
+    </div>
+
+
+    
+  </div>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="eventPopUp" class="modal">
+    <span onclick="document.getElementById('eventPopUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+    <form class="modal-content animate" action="/new_event" method="post">
+
+      <div class="popup-container">
+            <label><b>Title</b></label>
+            <input type="text" placeholder="My Awesome Event" name="name" required>
+            <label><b>Location</b></label>
+            <input type="text" placeholder="@My Place" name="location" required>
+      <!--
+      <br>
+      <label><b>Date</b></label>
+            <input type="text" placeholder="4 Feb" name="date" required>
+      <label><b>Time</b></label>
+            <input type="text" placeholder="5:00pm" name="time" required>
+      -->
+            <label><b>Date and Time</b></label>
+            <div class="input-append date form_datetime">
+                <input size="16" type="text" name="datetime" readonly required>
+                <span class="add-on"><i class="icon-remove"></i></span>
+                <span class="add-on"><i class="icon-th"></i></span>
+            </div>
+
+            <label><b>Description</b></label>
+            <input type="text" placeholder="Come to My Awesome Event" name="description" required>
+
+            <label><b>Tags (optional)</b></label><br/>
+            <select class="tagbox" name="tags" multiple data-role="tagsinput">
+            </select>
+
+
+        <!--<p>By creating an event you agree to our <a href="#">Terms & Privacy</a>.</p>-->
+        <div class="clearfix">
+          <button type="submit" class="signupbtn btn" id="submitNewEvent">Create Event</button>
+          <button type="button" onclick="document.getElementById('eventPopUp').style.display='none'" class="cancelbtn btn" id="cancelNewEvent">Cancel</button>
+        </div>
+      </div>
+    </form>
+</div>
+
+  <script src="https://use.fontawesome.com/6a9c821b61.js"></script>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/popUp.js"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy, HH:ii P",
+        showMeridian: true,
+        autoclose: true,
+        todayBtn: true,
+        fontAwesome: true,
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+  <script src="js/bootstrap-tagsinput.js"></script>
+  <script src="js/bootstrap-tagsinput-angular.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+{
+  "profile": {
+    "id": 7,
+    "name": "Skyler Taylor",
+    "username": "SkylerDaBoss",
+    "email": "SkylerDaBoss@email.com",
+    "password": "test",
+    "latitude": 0,
+    "longitude": 0,
+    "location": "La Jolla, CA",
+    "events": [],
+    "profilePicture": "http://lorempixel.com/50/50/people/"
+  },
+  "users": [
+    {
+      "id": 0,
+      "name": "Celia Durkin",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 1,
+      "name": "Pyae Maung",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 2,
+      "name": "Karl Rummler",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 3,
+      "name": "Fred Flintstone",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 4,
+      "name": "Kristen Stewart",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 5,
+      "name": "Hendrik Lorentz",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 6,
+      "name": "Wally",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 7,
+      "name": "Skyler Taylor",
+      "username": "SkylerDaBoss",
+      "email": "SkylerDaBoss@hotmail.com",
+      "password": "test",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 8,
+      "name": "Nick Roberts",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 9,
+      "name": "Alex Hermstad",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 10,
+      "name": "Dhaivath Raghupathy",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    },
+    {
+      "id": 11,
+      "name": "Spencer Wilson",
+      "username": "",
+      "email": "",
+      "password": "",
+      "latitude": 0,
+      "longitude": 0,
+      "location": "La Jolla, CA",
+      "events": [],
+      "profilePicture": "http://lorempixel.com/50/50/people/"
+    }
+  ],
+  "events": [
+    {
+      "id": 0,
+      "name": "CSE 170 Studio",
+      "host": {
+        "id": 0,
+        "name":"Celia Durkin"
+      },
+      "location": "CSB 180",
+      "latitude": 32.880473,
+      "longitude": -117.239435,
+      "datetime": "04 March 2017, 03:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "Come check out some sick apps in CSE 170 (COGS 120) studio."
+    },
+    {
+      "id": 1,
+      "name": "Absinthe Computer Vision Quest",
+      "host": {
+        "id": 7,
+        "name":"Skyler Taylor"
+      },
+      "location": "The Lion's Share",
+      "latitude": 0,
+      "longitude": 0,
+      "datetime": "01 March 2017, 03:10 PM",
+      "going": [
+        {
+          "name": "Alex Hermstad",
+          "id": 9
+        }
+      ],
+      "cancelled": [
+        {
+          "name": "Spencer Wilson",
+          "id": 11
+        }
+      ],
+      "tags": [],
+      "description": "Going to The Lion's Share downtown to go on an absinthe fueled computer vision quest. Come through if you're interested in computer vision, absinthe, or if you just want to hear some musings on the dank new CV papers on arxiv."
+    },
+    {
+      "id": 2,
+      "name": "Extreme Caffeine Adventure",
+      "host": {
+        "id": 7,
+        "name":"Skyler Taylor"
+      },
+      "location": "Lofty Coffee, Little Italy",
+      "latitude": 0,
+      "longitude": 0,
+      "datetime": "12 March 2017, 03:10 PM",
+      "going": [1, 10, 9],
+      "going": [
+        {
+          "name": "Pyae Maung",
+          "id": 1
+        },
+        {
+          "name": "Dhaivath Raghupathy",
+          "id": 10
+        },
+        {
+          "name": "Alex Hermstad",
+          "id": 9
+        }
+      ],
+      "cancelled": [
+        {
+          "name": "Spencer Wilson",
+          "id": 11
+        }
+      ],
+      "tags": [],
+      "description": "Getting extremely hyped on caffeine to prepare for the extremely long wait while my LSTM trains on my non-GPU."
+    },
+    {
+      "id": 3,
+      "name": "Ironically get up before noon",
+      "host": {
+        "id": 1,
+        "name":"Pyae Maung"
+      },
+      "location": "The Village, UCSD",
+      "latitude": 32.888295,
+      "longitude": -117.242696,
+      "datetime": "01 March 2010, 03:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "It's ironic because I am not known to get up before noon."
+    },
+    {
+      "id": 4,
+      "name": "Get groceries",
+      "host": {
+        "id": 2,
+        "name":"Karl Rummler"
+      },
+      "location": "Whole Foods",
+      "latitude": 32.868396,
+      "longitude": -117.231228,
+      "datetime": "02 March 2017, 03:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "I need to go to whole foods and I am the only person that I know that has a car, so if anybody wants to join, I will provide a ride."
+    },
+    {
+      "id": 5,
+      "name": "Act out RobotDoesX YouTube transcript",
+      "host": {
+        "id": 8,
+        "name":"Nick Roberts"
+      },
+      "location": "The Village East Tower, UCSD",
+      "latitude": 32.8885448,
+      "longitude": -117.24166079999999,
+      "datetime": "03 May 2017, 03:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": ["dance"],
+      "description": "I made an LSTM that learns from transcripts of prank videos on YouTube, so if you're interesed in acting out a computer generated transcript of a potentially insane prank video, attend this sick event."
+    },
+    {
+      "id": 6,
+      "name": "Lab Meeting",
+      "host": {
+        "id": 6,
+        "name":"Wally"
+      },
+      "location": "CSE 100000000000",
+      "latitude": 32.881486,
+      "longitude": -117.233896,
+      "datetime": "05 March 2017, 03:10 PM",
+      "going": [],
+      "cancelled": [],
+      "tags": [],
+      "description": "Wally will be presenting his research on deep recurrent gated siamese autoencoding neural turing perceptron lstm rnn backpropagating deep feature graph extracting nlp convolutional deep transfer learning deep neural buzzword networks. It is guaranteed to be deep."
+    }
+  ]
+}
