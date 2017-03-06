@@ -3,7 +3,7 @@
 
 ## Getting started
 ```bash
-cd OpenInvite
+cd Healthy-Sleep
 npm install
 ```
 
